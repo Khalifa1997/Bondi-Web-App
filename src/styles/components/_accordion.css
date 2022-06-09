@@ -1,0 +1,57 @@
+.accordion {
+  @apply bg-white rounded-lg border-nonary border-2 flex flex-col space-y-0.5;
+}
+
+.accordion__row {
+  @apply mx-1 bg-primary rounded-md mt-2;
+}
+
+.accordion__row__container {
+  @apply my-2 flex flex-row mx-4 items-center justify-center;
+}
+
+.accordion__left {
+  @apply flex flex-col w-11/12 mr-auto;
+}
+
+.accordion__left__header {
+  @apply text-sm text-octonary;
+}
+
+.accordion__left__subheader {
+  @apply text-xs text-textTertiary;
+}
+
+.accordion__row__data {
+  @apply block border-t border-nonary;
+}
+
+.accordion__row__data__container {
+  @apply mx-5 my-4 flex flex-col;
+}
+
+.accordion__row__data__IP {
+  @apply flex flex-row items-center justify-start mb-2;
+}
+
+.accordion__row__data__title {
+  @apply text-textTertiary mr-auto;
+}
+
+.accordion__row__data__IP__field {
+  @apply ml-auto  max-w-md w-full  text-sm rounded-md p-3;
+}
+
+.accordion__row__data__description {
+  @apply flex flex-row items-start mb-4;
+}
+
+.accordion__row__data__description__field {
+  @apply ml-auto max-w-md w-full h-28 text-sm p-3 rounded-md;
+
+  resize: none;
+}
+
+.accordion__row__data__button {
+  @apply ml-auto max-w-md max-h-12 mb-2 w-full;
+}

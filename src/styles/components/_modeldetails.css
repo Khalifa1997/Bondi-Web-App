@@ -1,0 +1,38 @@
+.modelDetails {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  @apply bg-primary rounded-md;
+}
+
+.modelDetails__container {
+}
+
+.modelDetails__row {
+  @apply flex flex-row justify-center mb-7;
+}
+
+.modelDetails__left {
+  @apply text-lg text-textTertiary;
+}
+
+.modelDetails__right {
+  @apply ml-auto text-octonary;
+}
+
+.modelDetails__URL {
+  @apply text-secondary;
+}
+
+.modelDetails__icon {
+  @apply ml-auto flex flex-row items-center justify-center;
+}
+
+.modelDetails__icon__text {
+  @apply ml-1 text-octonary;
+}
+
+.modelDetails__active {
+  @apply ml-auto text-lg text-secondary;
+}

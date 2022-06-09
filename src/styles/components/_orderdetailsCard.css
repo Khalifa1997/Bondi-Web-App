@@ -1,0 +1,33 @@
+.orderDetails-card {
+  @apply flex flex-col border-b-2 bg-septenary border-secondary;
+}
+
+.orderDetails-card__header {
+  @apply mt-6 mb-3 ml-4 text-lg font-bold text-textPrimary;
+}
+
+.orderDetails-card__container {
+  @apply mx-4 border-b-2 border-dashed border-secondary;
+}
+
+.orderDetails-card__item {
+  padding-top: 1.9rem;
+  padding-left: 1.6rem;
+  @apply inline-flex flex-row;
+}
+
+.orderDetails-card__item:last-child {
+  padding-bottom: 2.5rem;
+}
+
+.orderDetails-card__item:first-child {
+  padding-top: 1.9rem;
+}
+
+.orderDetails-card__right {
+  @apply ml-auto pr-4 text-lg font-medium leading-10 text-textPrimary;
+}
+
+.orderDetails-card__border {
+  @apply mx-4 border-b-2 border-dashed border-secondary;
+}

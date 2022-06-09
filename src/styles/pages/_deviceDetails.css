@@ -1,0 +1,30 @@
+.deviceDetails {
+  @apply col-span-12 md:col-span-8 md:col-start-4 grid grid-cols-2 gap-x-3 gap-y-4 auto-rows-auto;
+}
+
+.device-details__header {
+  padding-left: 1.6rem;
+}
+
+.device__breadCrumbs {
+  @apply col-span-full flex flex-row items-center mb-4 row-start-1;
+}
+
+.deviceDetails__accordion {
+  @apply row-span-2 row-start-2 col-start-2;
+
+  max-height: 47.8rem;
+  overflow-y: scroll;
+}
+
+.deviceDetails__button {
+  @apply col-start-1 row-start-4 max-w-md  text-textTertiary rounded-md border border-textTertiary flex flex-row justify-center items-center h-14;
+}
+
+.deviceDetails__model-details {
+  @apply col-start-1 row-start-2 row-span-2;
+}
+
+.deviceDetails__button__text {
+  @apply text-sm text-textTertiary ml-3 mr-auto;
+}

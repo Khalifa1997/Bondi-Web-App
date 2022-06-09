@@ -1,0 +1,34 @@
+.input {
+  @apply flex;
+  @apply flex-col;
+}
+
+.input--light {
+  @apply text-textPrimary;
+}
+
+.input__label {
+  font-size: 1.4rem;
+  padding-bottom: 0.6rem;
+  max-width: 37.6rem;
+
+  @apply w-full;
+}
+
+.input__label--light {
+  @apply text-quaternary;
+}
+
+.input__text {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  border-radius: 0.4rem;
+  max-width: 37.6rem;
+}
+
+.input__text--light {
+  @apply bg-primary;
+  @apply text-textPrimary;
+}

@@ -1,0 +1,59 @@
+.sideBar {
+  @apply fixed max-w-md min-h-screen bg-primary;
+}
+
+.sideBar__container {
+  @apply w-full min-h-screen bg-primary;
+}
+
+.sideBar__logo {
+  @apply flex flex-row justify-center mt-10;
+}
+
+.sideBar__nav {
+  @apply flex flex-col justify-start  mt-11 bg-primary text-textTertiary h-5/6;
+}
+
+.sideBar__nav__first {
+  @apply flex items-center  text-textTertiary;
+}
+
+.sideBar__nav__icon {
+  @apply ml-7;
+}
+
+.sideBar__nav__icon__refresh {
+  @apply ml-11;
+}
+
+.sideBar__nav__text {
+  @apply ml-4 text-sm;
+}
+
+.sideBar__nav__text__disabled {
+  @apply text-quaternary;
+}
+
+.sideBar__nav__first__text__selected {
+  @apply text-secondary border-l-2 border-secondary;
+}
+
+.sideBar__nav__second {
+  @apply flex items-start justify-start mt-7;
+}
+
+.sideBar__separator {
+  @apply mx-5 border-b-2 border-nonary mt-9;
+}
+
+.sideBar__nav__last {
+  @apply cursor-pointer my-9;
+}
+
+.sideBar__nav__last__container {
+  @apply flex items-center text-textTertiary;
+}
+
+.sideBar_bottom {
+  @apply mt-auto mb-3;
+}

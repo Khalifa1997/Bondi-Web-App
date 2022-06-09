@@ -1,0 +1,24 @@
+.checkbox {
+  @apply cursor-pointer;
+  @apply flex;
+  @apply items-center;
+
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  border-radius: 0.4rem;
+}
+
+.checkbox__title {
+  @apply w-full;
+}
+
+.checkbox__input {
+  border-radius: 50%;
+}
+
+.checkbox__image-container {
+  width: 1.667rem;
+  height: 1.667rem;
+  right: 1.967rem;
+  top: 1.967rem;
+}

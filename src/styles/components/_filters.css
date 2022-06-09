@@ -1,0 +1,107 @@
+.filter {
+  @apply cursor-pointer;
+  @apply relative;
+  @apply inline-block;
+
+  margin-left: 2.4rem;
+  border: 1px solid;
+  @apply border-nonary;
+
+  border-radius: 0.6rem;
+  width: 27.8rem;
+  height: 4.8rem;
+}
+
+.filter--light {
+  @apply bg-primary;
+}
+
+.filter__header {
+  font-size: 1.2rem;
+  @apply text-textSecondary;
+
+  padding-top: 0.5rem;
+  padding-left: 1.6rem;
+  @apply w-4/5;
+}
+
+.filter__arrow {
+  @apply absolute;
+
+  right: 2.229rem;
+  top: 2.129rem;
+}
+
+.filter__selected {
+  font-size: 1.4rem;
+  padding-left: 1.6rem;
+
+  @apply flex;
+  @apply justify-between;
+  @apply text-textPrimary;
+  @apply w-4/5;
+}
+
+.filter__selected__arrow {
+}
+
+.filter__content {
+  @apply cursor-pointer;
+  @apply hidden;
+  @apply relative;
+
+  width: 27.8rem;
+  /* width: 50%; */
+  right: 0;
+  top: 0.4rem;
+
+  /* padding: 12px 16px; */
+  @apply z-10;
+}
+
+.filter__content__top {
+  @apply bg-white;
+
+  height: 1rem;
+}
+
+.filter__content--light {
+  @apply bg-primary;
+}
+
+.filter__content__list {
+  border-radius: 0.6rem;
+  box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.filter__content__list--light {
+  @apply bg-white;
+}
+
+.filter__content__list__item {
+  height: 5.6rem;
+  @apply text-textTertiary;
+  @apply flex;
+  @apply items-center;
+  @apply justify-between;
+
+  padding-left: 1.6rem;
+  padding-right: 1.96rem;
+  border-radius: 0.4rem;
+}
+
+.filter__content__list__item--light {
+  @apply bg-primary;
+  @apply text-textPrimary;
+}
+
+.filter__content__list__item--light:hover,
+.filter__content__list__item.selected {
+  @apply bg-secondary;
+  @apply text-white;
+}
+
+.filter:hover .filter__content {
+  @apply block;
+  @apply bg-primary;
+}

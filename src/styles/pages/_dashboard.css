@@ -1,0 +1,31 @@
+.dashboard {
+}
+
+.dashboard__section {
+  @apply grid-cols-8;
+  @apply gap-6;
+  @apply grid;
+
+  margin-top: 2.4rem;
+}
+
+.dashboard__line-chart {
+  @apply col-span-5;
+}
+
+.dashboard__line-chart--light {
+  @apply bg-primary;
+}
+
+.dashboard__side-pannel {
+  @apply col-span-3;
+}
+
+.dashboard__pie-chart {
+  @apply col-span-4;
+}
+
+.dashboard__bar-chart {
+  @apply col-span-4;
+  @apply col-start-5;
+}

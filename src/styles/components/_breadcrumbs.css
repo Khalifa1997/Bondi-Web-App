@@ -1,0 +1,27 @@
+.breadcrumbs {
+  @apply text-black;
+}
+
+.breadcrumbs__list {
+  @apply inline-flex p-0 list-none;
+}
+
+.breadcrumbs__list__item {
+  @apply flex items-center;
+}
+
+.breadcrumbs__list__item__text {
+  @apply text-sm  text-textPrimary;
+}
+
+.breadcrumbs__list__item__svg {
+  @apply w-3 h-3 mx-6 fill-current;
+}
+
+.breadcrumbs__list__item__last {
+  @apply flex items-center;
+}
+
+.breadcrumbs__list__item__last__text {
+  @apply text-xs  text-textTertiary;
+}

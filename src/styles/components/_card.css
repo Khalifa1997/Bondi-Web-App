@@ -1,0 +1,63 @@
+.card {
+  @apply rounded-sm;
+}
+
+.card__img {
+  @apply py-3 pl-2;
+}
+
+.card__img__notModal {
+  @apply pr-10 xl:pl-6;
+}
+
+.card__img__Modal {
+  @apply pr-8 xl:pl-11;
+}
+
+.card__img__notImg {
+  @apply py-1 pl-2 xl:pl-4;
+}
+
+.card__content__notModal {
+  @apply flex max-w-3xl;
+}
+
+.card__content__modal {
+  @apply flex items-center justify-center;
+}
+
+.card__text__img {
+  @apply ml-7;
+}
+
+.card__text__img__notModal {
+  @apply mt-7 xl:ml-8;
+}
+
+.card__text__img__Modal {
+  @apply mt-4 xl:ml-7 lg:w-32;
+}
+
+.card__header {
+  @apply text-textPrimary mt-3;
+}
+
+.card__header__modal {
+  @apply text-base font-normal;
+}
+
+.card__img__company__label {
+  @apply inline-flex mt-6 ml-2;
+}
+
+.card__label {
+  @apply ml-2 text-xs bg-white text-quaternary;
+}
+
+.card__label__notModal {
+  @apply xl:ml-6;
+}
+
+.card__label__modal {
+  @apply xl:ml-4;
+}

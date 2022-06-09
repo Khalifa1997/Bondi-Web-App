@@ -1,0 +1,18 @@
+.chip {
+  font-size: 1.4rem;
+
+  @apply inline-flex align-middle items-center p-1;
+  /* padding-right: 1.2rem; */
+
+  @apply rounded-full;
+}
+
+.chip__img {
+  width: 1.2rem;
+  height: 1.2rem;
+  @apply rounded-full;
+}
+
+.chip__text {
+  padding-left: 0.8rem;
+}

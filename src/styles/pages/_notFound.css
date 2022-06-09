@@ -1,0 +1,28 @@
+.not-found {
+  @apply flex;
+  @apply flex-col;
+  @apply justify-center;
+  @apply items-center;
+
+  padding-top: 7.8rem;
+}
+
+.not-found__img-wrapper {
+  width: 43.6rem;
+  height: 43.6rem;
+}
+
+.not-found__title {
+}
+
+.not-found__description {
+  padding-top: 0.4rem;
+}
+
+.not-found__action {
+  @apply w-full;
+  @apply flex;
+  @apply justify-center;
+
+  padding-top: 2.4rem;
+}

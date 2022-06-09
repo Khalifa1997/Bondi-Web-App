@@ -1,0 +1,46 @@
+.progressModal {
+  @apply fixed inset-0 z-50 flex items-center justify-center w-full overflow-hidden bg-opacity-80 bg-black;
+}
+
+.progressModal__container {
+  @apply z-50 flex flex-col items-center p-8 bg-white rounded-md;
+
+  height: 33.5rem;
+  width: 57.9rem;
+}
+
+.progressModal__header {
+  @apply text-xl text-octonary;
+}
+
+.progressModal__text {
+  @apply text-base text-textPrimary;
+}
+
+.progressModal__input__first {
+  @apply text-sm mt-4;
+
+  width: 37.6rem;
+}
+
+.progressModal__input__second {
+  @apply text-sm mt-3;
+
+  width: 37.6rem;
+}
+
+.progressModal__button {
+  @apply mt-8;
+
+  width: 27.8rem;
+}
+
+.progressModal__date-picker {
+  @apply text-textPrimary p-4 bg-primary rounded-md;
+}
+
+.progressModal__error {
+  @apply text-danger mt-2 text-left mx-10 text-sm;
+
+  width: 37.6rem;
+}

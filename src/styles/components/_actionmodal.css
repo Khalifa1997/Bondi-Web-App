@@ -1,0 +1,36 @@
+.actionModal {
+  @apply fixed inset-0 z-50 flex items-center justify-center w-full overflow-hidden bg-opacity-50 bg-modalShade;
+}
+
+.actionModal__container {
+  @apply z-50 flex flex-col p-8 bg-white rounded-md;
+  @apply w-2/5;
+
+  max-width: 57.2rem;
+}
+
+.actionModal__header {
+  @apply text-2xl font-bold;
+}
+
+.actionModal__text {
+  @apply text-base mr-24 mt-6;
+
+  color: #4f4f4f;
+}
+
+.actionModal__buttonGroup {
+  @apply mt-12 flex flex-row items-end justify-end;
+}
+
+.actionModal__button {
+  @apply h-12 w-44;
+}
+
+.actionModal__cancel {
+  @apply bg-nonary text-senary mr-6;
+}
+
+.actionModal__delete {
+  @apply bg-danger text-white;
+}

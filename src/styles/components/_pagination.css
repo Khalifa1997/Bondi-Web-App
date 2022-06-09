@@ -1,0 +1,42 @@
+.pagination {
+  @apply flex;
+  @apply flex-col;
+  @apply items-center;
+  @apply mt-7;
+}
+
+.pagination__cell-container {
+  @apply flex;
+  @apply bg-primary;
+  @apply text-textTertiary;
+
+  border-radius: 0.4rem;
+}
+
+.pagination__cell {
+  /* width: 5.804rem; */
+  /* padding: ;: 3.765rem; */
+  @apply px-6;
+  @apply py-3;
+  @apply cursor-pointer;
+  @apply flex;
+  @apply justify-center;
+  @apply align-middle;
+}
+
+.pagination__cell-selected {
+  @apply bg-secondary;
+  @apply text-white;
+}
+
+.pagination__cell--rounded-md {
+  @apply rounded-md;
+}
+
+.pagination__jumper {
+  @apply inline-flex;
+  @apply justify-center;
+  @apply items-center;
+  @apply mr-1;
+  @apply ml-1;
+}

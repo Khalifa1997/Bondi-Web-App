@@ -1,0 +1,87 @@
+.table {
+  @apply border-separate;
+  @apply min-w-full;
+
+  font-size: 1.4rem;
+  border-spacing: 0 1.2rem;
+}
+
+.table__header {
+  @apply text-textTertiary
+    text-left;
+}
+
+.table__header__cell--light {
+  @apply bg-tertiary;
+  @apply text-textTertiary;
+}
+
+.table__header__cell {
+  padding-bottom: 1.4rem;
+}
+
+.table__header__cell__title {
+  @apply cursor-default;
+  @apply justify-start;
+
+  font-weight: 400;
+  display: inline-flex;
+}
+
+.table__header .table__header__cell:first-child {
+  padding-left: calc(1.6rem + 1.6rem);
+}
+
+.table__header__cell .table__row__cell__title:first-child {
+  @apply pl-0;
+}
+
+.table__row {
+  @apply h-1.5;
+  @apply max-h-1.5;
+}
+
+.table__row__cell {
+  padding-top: 0.9rem;
+  padding-bottom: 1.2rem;
+  @apply text-left;
+  /* @apply max-w-full; */
+
+  max-width: 13rem;
+
+  @apply max-h-1.5;
+}
+
+.table__row__cell--light {
+  @apply text-textPrimary;
+  @apply bg-primary;
+}
+
+.table__row__cell__data {
+  @apply cursor-default;
+
+  min-width: 10rem;
+}
+
+/* .table__row__cell .table__row__cell__data {
+  @apply pl-4;
+} */
+
+.table__row .table__row__cell:first-child .table__row__cell__data:first-child {
+  @apply pl-4;
+}
+
+/* cell & row edges */
+.table__row:first-child,
+.table__row__cell:first-child {
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  @apply pl-4;
+}
+
+.table__row:first-child,
+.table__row__cell:last-child {
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  @apply pr-4;
+}

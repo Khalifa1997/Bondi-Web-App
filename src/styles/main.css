@@ -1,0 +1,59 @@
+/* vendors */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* abstracts */
+@import url("./abstracts/_functions.css");
+@import url("./abstracts/_mixins.css");
+@import url("./abstracts/_vardiables.css");
+
+/* base */
+@import url("./base/_reset.css");
+@import url("./base/_typography.css");
+
+/* components */
+@import url("./components/_common.css");
+@import url("./components/_actionmodal.css");
+@import url("./components/_errormodal.css");
+@import url("./components/_accordion.css");
+@import url("./components/_modeldetails.css");
+@import url("./components/_card.css");
+@import url("./components/_label.css");
+@import url("./components/_breadcrumbs.css");
+@import url("./components/_searchbar.css");
+@import url("./components/_orderstatus.css");
+@import url("./components/_orderdetailsCard.css");
+@import url("./components/_modal.css");
+@import url("./components/_buttons.css");
+@import url("./components/_checkbox.css");
+@import url("./components/_lineChart.css");
+@import url("./components/_chip.css");
+@import url("./components/_drawer.css");
+@import url("./components/_filters.css");
+@import url("./components/_input.css");
+@import url("./components/_pagination.css");
+@import url("./components/_progressBar.css");
+@import url("./components/_progressmodal.css");
+@import url("./components/_sidePannel.css");
+@import url("./components/_sideBar.css");
+
+/* layout */
+@import url("./layout/_table.css");
+@import url("./layout/_app.css");
+
+/* pages */
+@import url("./pages/_accessDenied.css");
+@import url("./pages/_home.css");
+@import url("./pages/_dashboard.css");
+@import url("./pages/_deviceDetails.css");
+@import url("./pages/_comingSoon.css");
+@import url("./pages/_login.css");
+@import url("./pages/_notFound.css");
+@import url("./pages/_unauthurized.css");
+@import url("./pages//_login.css");
+@import url("./pages/_ordersDetails.css");
+
+/* themes */
+@import url("./themes/_admin.css");
+@import url("./themes/_theme.css");

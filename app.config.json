@@ -1,0 +1,10 @@
+{
+    "apps": [
+      {
+        "name": "bondi-web",
+        "script": "npx",
+        "interpreter": "none",
+        "args": "serve dist -s -l 3005"
+      }
+    ]
+}

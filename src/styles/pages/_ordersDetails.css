@@ -1,0 +1,61 @@
+.orderDetails {
+  @apply col-span-12 md:col-span-8 md:col-start-4 grid grid-cols-2 auto-rows-min gap-x-4 gap-y-4;
+}
+
+.orderDetails__breadCrumbs {
+  @apply col-span-full flex flex-row items-center mb-4;
+}
+
+.orderDetails__img__card {
+  @apply border-l-2 border-secondary w-full col-span-1 bg-primary;
+}
+
+.orderDetails__img__card__img {
+  @apply hidden md:flex lg:w-52 w-36;
+}
+
+.orderDetails__img__card__company {
+  @apply h-6 w-11;
+}
+
+.orderDetails__img__card__price {
+  @apply text-sm font-sans text-textTertiary mt-4;
+}
+
+.orderDetails__img__card__label {
+  @apply bg-white text-quaternary text-sm ml-6;
+}
+
+.orderDetails__card__left {
+  @apply border-b-2 border-textSecondary col-span-1 row-start-3 bg-primary;
+}
+
+.orderDetails__card__left__paragraph {
+  @apply text-sm font-sans text-textTertiary;
+}
+
+.cancelOrder {
+  @apply flex row-span-1 text-sm text-textTertiary items-start justify-start max-w-max;
+}
+
+.orderDetails__card__right {
+  @apply col-start-2 w-full col-span-1 row-span-2 row-start-2;
+}
+
+.orderDetailstatus {
+  @apply w-full col-span-2 h-24 mt-9;
+}
+
+.orderDetails__progress-bar {
+  @apply col-span-12;
+}
+
+.orderDetails__provisionOrder {
+  @apply mx-auto row-start-5 col-start-1 col-span-full border-2 border-secondary rounded-lg;
+
+  background-color: rgba(41, 92, 212, 0.2);
+}
+
+.orderDetails__provisionOrder__text {
+  @apply text-secondary text-lg capitalize my-2 mx-10 font-medium;
+}

@@ -1,0 +1,118 @@
+.modal {
+  @apply fixed inset-0 z-50 flex items-center justify-center w-full overflow-hidden bg-opacity-50 bg-modalShade;
+}
+
+.modal__container {
+  @apply z-50 w-full overflow-y-auto bg-white border rounded shadow-lg;
+}
+
+.modal__title {
+  @apply flex items-center justify-center mt-12;
+}
+
+.modal__title__text {
+  @apply text-lg font-medium text-textPrimary;
+}
+
+.modal__order {
+  @apply grid grid-cols-2 gap-56 mt-24 mb-20 auto-cols-min auto-rows-max;
+}
+
+.modal__card__container {
+  @apply flex items-center ml-auto;
+}
+
+.modal__card {
+  @apply w-full col-span-1 bg-white;
+}
+
+.modal__card__img {
+  @apply hidden md:flex lg:w-52 w-36;
+}
+
+.modal__card__company {
+  @apply h-6 w-11;
+}
+
+.modal__card__price {
+  @apply mt-4 font-sans text-sm text-textTertiary;
+}
+
+.modal__card__label {
+  @apply ml-6 text-sm bg-white text-quaternary;
+}
+
+.modal__input__container {
+  @apply flex flex-col max-w-2xl;
+}
+
+.modal__input__first {
+  @apply max-w-2xl mb-4;
+}
+
+.modal__input__second {
+  @apply flex flex-row justify-center items-center bg-primary text-textPrimary rounded-md;
+
+  height: 4.8rem;
+  max-width: 37.6rem;
+}
+
+.modal__input__second__option {
+  @apply mx-20;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.modal__primary__button {
+  @apply mt-8 lg:w-96 max-h-12;
+}
+
+.modal__order-Processing__button {
+  @apply bg-processing text-white;
+}
+
+.modal__grid {
+  @apply mt-12 mb-20 flex flex-col;
+}
+
+.modal__grid__one {
+  @apply items-center justify-center max-w-3xl mx-auto;
+}
+
+.modal__grid__two {
+  @apply grid justify-center grid-cols-2 auto-rows-min gap-x-11 mx-auto;
+}
+
+.modal__grid__twoPlus {
+  @apply grid justify-center grid-cols-3 auto-rows-min gap-x-4 gap-y-4 md:mx-32;
+}
+
+.modal__grid__card {
+  @apply w-full border-b-2 border-secondary bg-septenary;
+}
+
+.modal__grid__card__img {
+  @apply hidden w-24 md:flex lg:w-36 max-h-28;
+}
+
+.modal__grid__card__company {
+  @apply h-6 w-11;
+}
+
+.modal__grid__card__price {
+  @apply mt-4 font-sans text-sm text-textTertiary;
+}
+
+.modal__grid__card__label {
+  @apply ml-6 text-sm bg-white text-quaternary;
+}
+
+.modal__manufacturer {
+  @apply col-span-full flex flex-row mx-auto space-x-5 mb-6;
+}
+
+.modal__manufacturer__logo {
+  @apply border-2 border-quaternary h-24 w-48 flex justify-center items-center;
+}

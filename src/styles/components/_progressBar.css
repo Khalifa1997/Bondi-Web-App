@@ -1,0 +1,71 @@
+.progress-bar {
+  @apply flex items-center mb-20;
+}
+
+.progress-bar__node {
+  @apply relative flex items-center;
+}
+
+.progress-bar__selected {
+  @apply flex items-center justify-center w-10 h-10 transition duration-500 ease-in-out border-2 rounded-full border-progress;
+}
+
+.progress-bar__passed {
+  @apply flex items-center justify-center w-8 h-8 px-3 py-2 transition duration-500 ease-in-out border-2 rounded-full  text-textTertiary;
+}
+
+.progress-bar__currentNumber {
+  @apply bg-white text-progress border-progress;
+}
+
+.progress-bar__completedNumber {
+  @apply text-white bg-progress border-progress;
+}
+
+.progress-bar__text {
+  @apply absolute w-36 font-sans text-base font-medium text-center top-11 -ml-12 text-quaternary  flex flex-col;
+}
+
+.progress-bar__textSelected {
+  @apply text-progress;
+}
+
+.progress-bar__line {
+  @apply flex-auto transition duration-500 ease-in-out border-t-2 border-nonary;
+}
+
+.progress-bar__lineCompleted {
+  @apply border-progress;
+}
+
+.progress-bar__lineStart {
+  @apply border-nonary;
+}
+
+.progress-bar__descriptionCompleted {
+  @apply text-xs text-textTertiary;
+}
+
+.progress-bar__descriptionNotCompleted {
+  @apply text-xs text-quaternary;
+}
+
+.progress-bar__info {
+  @apply absolute w-56 font-sans text-left -top-28 -ml-20 bg-white rounded-2xl shadow-md flex items-center justify-center;
+}
+
+.progress-bar__info__container {
+  @apply mx-5 my-3 text-xs flex flex-col w-full;
+}
+
+.progress-bar__info__title {
+  @apply text-progress w-full;
+}
+
+.progress-bar__info__paragraph {
+  @apply text-quaternary w-full mt-1;
+}
+
+.progress-bar__button {
+  @apply absolute w-32 h-8 font-sans text-xs font-normal text-center top-24 -ml-10 mb-20;
+}

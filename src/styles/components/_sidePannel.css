@@ -1,0 +1,43 @@
+.side-pannel {
+  @apply bg-primary;
+}
+
+.side-pannel__header,
+.side-pannel__body,
+.side-pannel__footer {
+  padding-top: 2.6rem;
+  padding-left: 1.6rem;
+  padding-bottom: 2.9rem;
+}
+
+.side-pannel__header__title,
+.side-pannel__body__title,
+.side-pannel__footer__title {
+  font-size: 1.4rem;
+}
+
+.side-pannel__header__title--light,
+.side-pannel__body__title--light,
+.side-pannel__footer__title--light {
+  @apply text-textSecondary;
+}
+
+.side-pannel__header__data,
+.side-pannel__body__data,
+.side-pannel__footer__data {
+  font-size: 3.6rem;
+}
+
+.side-pannel__header__data--light,
+.side-pannel__body__data--light,
+.side-pannel__footer__data--light {
+  @apply text-textPrimary;
+}
+
+.side-pannel__actions {
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+
+  /* padding-top: 1.6rem; */
+}

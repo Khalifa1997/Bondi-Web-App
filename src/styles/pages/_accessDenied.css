@@ -1,0 +1,28 @@
+.access-denied {
+  @apply flex;
+  @apply flex-col;
+  @apply justify-center;
+  @apply items-center;
+
+  padding-top: 9.3rem;
+}
+
+.access-denied__img-wrapper {
+  width: 40.6rem;
+  height: 40.6rem;
+}
+
+.access-denied__title {
+}
+
+.access-denied__description {
+  padding-top: 0.4rem;
+}
+
+.access-denied__action {
+  @apply w-full;
+  @apply flex;
+  @apply justify-center;
+
+  padding-top: 2.4rem;
+}

@@ -1,0 +1,55 @@
+.orderStatus {
+  @apply flex flex-row items-center content-center;
+}
+
+.orderStatus__container {
+  @apply block w-1/4 h-full bg-white;
+}
+
+.orderStatus__first {
+  @apply ml-6 mt-7;
+}
+
+.orderStatus__first__OrderStatus {
+  @apply items-center text-sm font-normal text-textTertiary;
+}
+
+.orderStatus__first__text {
+  @apply text-base text-secondary;
+}
+
+.orderStatus__second {
+  @apply items-center block w-7/12 h-full bg-white border-r-2 border-secondary;
+}
+
+.orderStatus__second__width {
+  @apply flex justify-end h-full bg-septenary;
+}
+
+.orderStatus__second__bg {
+  @apply ml-auto mr-0 bg-customGradient;
+}
+
+.orderStatus__second__progress {
+  @apply mt-6 text-base text-quinary;
+}
+
+.orderStatus__second__status__progress {
+  @apply mt-1 mr-4 text-sm text-quinary;
+}
+
+.orderStatus__third {
+  @apply block w-2/12 h-full;
+}
+
+.orderStatus__third__container {
+  @apply inline-block w-full h-full mt-6 ml-3 bg-white;
+}
+
+.orderStatus__third__progress {
+  @apply text-sm text-textTertiary;
+}
+
+.orderStatus__third__text {
+  @apply text-base text-senary;
+}

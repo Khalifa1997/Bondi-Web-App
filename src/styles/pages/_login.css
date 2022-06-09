@@ -1,0 +1,92 @@
+.login {
+  @apply grid;
+  @apply grid-cols-12;
+}
+
+.login__section-left {
+  @apply col-span-3;
+  @apply col-start-2;
+  @apply col-end-7;
+  @apply row-start-1;
+}
+
+.login__logo {
+  @apply col-span-1;
+  @apply col-start-2;
+  @apply col-end-3;
+  @apply row-start-1;
+
+  margin-top: 5.6rem;
+}
+
+.login__section-right {
+  @apply col-start-13 col-end-5 col-span-2 row-start-1;
+  @apply h-screen flex flex-row justify-center;  
+}
+
+.login__form {
+  padding-top: 18.2rem;
+}
+
+.login__form__title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.login__form__title--light {
+  @apply text-textQuinary;
+}
+
+.login__form__email {
+  padding-top: 3.2rem;
+}
+
+.login__form__password {
+  padding-top: 2.4rem;
+}
+
+.login__form__submit {
+  padding-top: 3.2rem;
+}
+
+.login__form__forget-password {
+  padding-top: 2.4rem;
+  font-size: 1.4rem;
+}
+
+.login__form__forget-password--light {
+  @apply text-textQuanternary;
+}
+
+.login__section-right__caption {
+  background: rgba(56, 178, 172, 0.71);
+  backdrop-filter: blur(12px);
+  border-radius: 4px;
+  @apply h-1/2;
+  @apply absolute;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-center;
+
+  @apply items-center;
+  @apply text-center;
+
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 18.6rem;
+  margin-bottom: 18.6rem;
+}
+
+.login__section-right__caption--light {
+  @apply text-white;
+  @apply text-center;
+}
+
+.login__section-right__caption__title {
+  padding-bottom: 0.8rem;
+  @apply mx-auto mt-auto;
+}
+
+.login__section-right__caption__description {
+  @apply mx-auto lg:mx-24 mb-auto;
+}

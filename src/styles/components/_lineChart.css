@@ -1,0 +1,48 @@
+.line-chart {
+  @apply w-full;
+}
+
+.line-chart__header {
+  height: 6.3rem;
+  @apply flex;
+  @apply justify-evenly;
+  @apply items-center;
+  @apply w-full;
+}
+
+.line-chart__header__section {
+  min-width: 7rem;
+  @apply cursor-pointer;
+  @apply h-full;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-center;
+  @apply items-center;
+  @apply text-center;
+  @apply align-middle;
+}
+
+.line-chart__header__section:hover {
+  border-top: 2px solid;
+  border-top-color: var(--color-text-secondary, #000);
+}
+
+.line-chart__header__text {
+  font-size: 1.6rem;
+}
+
+.line-chart__header__text--light {
+  @apply text-textTertiary;
+}
+
+.line-chart__header__subtext {
+  font-size: 1.4rem;
+}
+
+.line-chart__header__subtext--light {
+  @apply text-textQuanternary;
+}
+
+.line-chart__chart {
+  @apply w-full;
+}

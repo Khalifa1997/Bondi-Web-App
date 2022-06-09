@@ -1,0 +1,15 @@
+.comingSoon {
+  @apply flex flex-col justify-center items-center mt-44;
+}
+
+.comingSoon__header {
+  @apply text-xl font-medium text-octonary;
+}
+
+.comingSoon__description {
+  @apply text-base text-textPrimary mt-2;
+}
+
+.comingSoon__button {
+  @apply w-72 mt-6 rounded-md h-14;
+}

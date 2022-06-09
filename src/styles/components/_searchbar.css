@@ -1,0 +1,43 @@
+.search {
+  @apply grid grid-cols-10 max-h-14;
+}
+
+.searchBar {
+  @apply flex flex-row items-center content-center justify-center py-4 border border-gray-200 rounded shadow-sm bg-primary h-14 col-span-7;
+}
+
+.searchBar__search__icon {
+  @apply ml-3 text-textPrimary md:ml-12;
+}
+
+.searchBar__input {
+  @apply w-1/2 ml-4 text-sm bg-primary md:w-7/12;
+}
+
+.searchBar__separator {
+  @apply h-6 mx-2 border-l-2 md:mx-8 sm:mx-4 border-quaternary;
+}
+
+.searchBar__avatar {
+  /* @apply my-auto mr-1 md:mr-2; */
+}
+
+.searchBar__name {
+  padding-right: 3.2rem;
+  padding-left: 0.8rem;
+  @apply text-xs capitalize text-textPrimary md:text-sm;
+}
+
+.searchBar-wrapper {
+  @apply grid;
+  @apply grid-cols-8;
+  @apply gap-6;
+}
+
+.searchBar-wrapper__action {
+  @apply col-span-3;
+}
+
+.searchBar__button {
+  @apply col-span-3 ml-4;
+}

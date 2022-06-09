@@ -1,0 +1,25 @@
+.errorModal {
+  @apply fixed inset-0 z-50 flex items-center justify-center w-full overflow-hidden bg-opacity-20 bg-modalShade;
+}
+
+.errorModal__container {
+  @apply z-50 flex flex-col p-8 bg-white rounded-md mx-auto justify-center items-center;
+
+  max-width: 57.9rem;
+}
+
+.errorModal__button {
+  @apply h-12 w-44 bg-danger text-white mt-6;
+}
+
+.errorModal__paragraph {
+  @apply text-base text-textPrimary text-center;
+}
+
+.errorModal__title {
+  @apply text-xl text-senary;
+}
+
+.errorModal__text {
+  @apply mt-3 flex flex-col items-center justify-center;
+}

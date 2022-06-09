@@ -1,0 +1,59 @@
+.button {
+  @apply text-center;
+  @apply cursor-pointer;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+  border: none;
+}
+
+.login__button {
+  max-width: 37.6rem;
+}
+
+.button--light {
+  @apply bg-secondary;
+  @apply text-white;
+}
+
+.button--light:focus {
+  @apply text-white;
+}
+
+.button--rounded-sm {
+  border-radius: 0.4rem;
+}
+
+.button--wide {
+  /* width: 27.8rem; */
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.button--squared {
+  width: 3.6rem;
+  height: 2.8rem;
+  padding: 0.66rem 0.93rem 0.66rem 0.93rem;
+  border-radius: 0.5rem;
+}
+
+.button--disabled {
+  @apply cursor-default;
+  @apply bg-quaternary;
+  @apply text-textNonary;
+}
+
+.button--Fallback {
+  @apply w-96 h-12 rounded-md;
+}
+
+.buttonLoading {
+  @apply bg-processing text-white;
+}

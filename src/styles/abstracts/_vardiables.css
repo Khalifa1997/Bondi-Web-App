@@ -1,0 +1,21 @@
+:root {
+  /* main bg */
+  --color-primary: #fafafa;
+  --color-secondary: #295cd4;
+  --color-tertiary: #fff;
+  /* text tc */
+  --color-text-primary: #5c5c5c;
+  --color-text-secondary: #295cd4;
+  --color-text-tertiary: #7b7f82;
+  --color-text-quaternary: #bdbdbd;
+  /* text extra colors */
+  --color-text-quinary: #fff;
+  --color-text-senary: #fff;
+  --color-text-septenary: #fff;
+  --color-text-octonary: #fff;
+  --color-text-nonary: #fff;
+  --color-text-denary: #fff;
+  /* stats */
+  --color-nuetral: #efc83d;
+  --color-warning: #38a169;
+}
