@@ -87,6 +87,39 @@ const deviceApi = {
         },
         configurationAvailable: true,
         healthInfoUrl: "string"
+      },
+      {
+        id: 4,
+        hostname: "Host 2",
+        model: {
+          id: 0,
+          name: "Fortinet",
+          displayName: "Fortinet",
+          vendor: "Fortinet"
+        },
+        status: "Active",
+        site: {
+          id: 0,
+          name: "Site A"
+        },
+        role: "string",
+        managementIpAddress: "127.2.2.101/12",
+
+        order: {
+          deviceSite: "Site A",
+          completed: true,
+          shipped: true,
+          deliveryDate: new Date().toString(),
+          createdAt: new Date().toString(),
+          shipDate: new Date().toString(),
+          delivered: true,
+          id: 20,
+          deviceHostname: "Host 2",
+          status: "Active",
+          shipTrackingUrl: ""
+        },
+        configurationAvailable: true,
+        healthInfoUrl: "string"
       }
     ];
 
@@ -102,15 +135,15 @@ const deviceApi = {
       },
       {
         id: 1,
-        name: "Fortinet",
-        displayName: "Fortinet",
+        name: "Fortinet D900",
+        displayName: "Fortinet D900",
         vendor: "Fortinet"
       },
       {
         id: 2,
-        name: "WebGL",
-        displayName: "WebGL",
-        vendor: "WebGL"
+        name: "Juniper vSRX",
+        displayName: "Juniper vSRX",
+        vendor: "Juniper"
       }
     ];
 
