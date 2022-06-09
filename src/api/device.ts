@@ -134,6 +134,13 @@ const deviceApi = {
         vendor: "Cisco"
       },
       {
+        id: 7,
+        name: "Cisco",
+        displayName: "Cisco",
+        vendor: "Cisco"
+      },
+
+      {
         id: 1,
         name: "Fortinet D900",
         displayName: "Fortinet D900",
@@ -141,6 +148,24 @@ const deviceApi = {
       },
       {
         id: 2,
+        name: "Juniper vSRX",
+        displayName: "Juniper vSRX",
+        vendor: "Juniper"
+      },
+      {
+        id: 3,
+        name: "Juniper vSRX",
+        displayName: "Juniper vSRX",
+        vendor: "Juniper"
+      },
+      {
+        id: 4,
+        name: "Juniper vSRX",
+        displayName: "Juniper vSRX",
+        vendor: "Juniper"
+      },
+      {
+        id: 5,
         name: "Juniper vSRX",
         displayName: "Juniper vSRX",
         vendor: "Juniper"
@@ -247,8 +272,11 @@ const deviceApi = {
     payload: IdeviceInterfacePayload
   ): Promise<IdeviceInterface> {
     return {
-      description: payload.description,
-      ipAddressV4: payload.ipAddressV4
+      description: payload.description!,
+      id: deviceId,
+      enabled: true,
+      name: "New Name",
+      ipAddress: payload.ipAddressV4!
     };
   },
 
