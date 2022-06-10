@@ -8,7 +8,7 @@
         <div class="login__form__title">Login</div>
         <div class="login__form__email">
           <Input
-            :inputLabel="`Username/Email`"
+            :inputLabel="`Username/Email [admin/password]`"
             :inputType="`text`"
             :inputPlaceholder="`me@example.com or UserName`"
             @input="emailChangeHandle($event)"
