@@ -13,8 +13,8 @@ An E-commerce website to handle the analysis of the items sold, and which items 
 ## Demo Link
 Access my project [here](https://adorable-fudge-28fa02.netlify.app/)
 ## Table of contents
-* [Frameworks](#frameworks)
 * [Tech Stack](#tech-stack)
+* [Screenshots](#screenshots)
 * [Installation and Setup Instructions](#installation-and-setup-instructions)
 
 ## Tech Stack
